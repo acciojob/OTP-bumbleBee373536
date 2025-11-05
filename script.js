@@ -2,7 +2,7 @@
 let codes = document.querySelectorAll(".code");
 
 // auto-focus first box
-// codes[0].focus();
+codes[0].focus();
 
 codes.forEach((input, index) => {
 	input.addEventListener("input", (e) => {
